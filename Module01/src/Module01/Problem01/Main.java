@@ -1,11 +1,9 @@
 package Module01.Problem01;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
 
         System.out.print("Masukkan Nama Lengkap: ");
@@ -45,7 +43,6 @@ public class Main {
             default -> "Bulan invalid";
         };
 
-        System.out.println("Nama Lengkap " + name + ", Lahir di " + birthPlace + " pada tanggal " + birthDate + " " + monthName + " " + birthYear);
-        System.out.println("Tinggi Badan " + height + " cm dan Berat Badan " + weight + " kilogram");
+        System.out.println("Nama Lengkap " + name + ", Lahir di " + birthPlace + " pada tanggal " + birthDate + " " + monthName + " " + birthYear + " Tinggi Badan " + height + " cm dan Berat Badan " + weight + " kilogram");
     }
 }
