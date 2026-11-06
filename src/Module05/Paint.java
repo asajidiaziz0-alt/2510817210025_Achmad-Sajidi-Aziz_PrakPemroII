@@ -11,7 +11,6 @@ public class Paint {
 
     public double amount(Shape s) {
         System.out.println("Computing amount for " + s);
-        // TODO: Ganti return 0 dengan rumus perhitungan jumlah cat (s.area() dibagi coverage)
         return s.area() / coverage;
     }
 }
